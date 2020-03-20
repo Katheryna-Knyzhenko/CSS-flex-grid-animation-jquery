@@ -2,5 +2,17 @@ section {
     display: flex;
 }
 
+article {
+    flex: 1 200px;
+    background-color: cornsilk;
+    margin-left: 10px;
 
+}
+
+article:nth-of-type(3) {
+    flex: 3 200px;
+    display: flex;
+    flex-flow: column;
+    background-color: lightgrey;
+}
 
