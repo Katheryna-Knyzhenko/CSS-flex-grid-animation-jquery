@@ -16,9 +16,15 @@ render() {
     <article>Article 1</article>
     <article>Article 2</article>
     <article>Article 3
-        <div>Див 1</div>
-        <div>Див 1</div>
-        <div>Див 3</div></article>
+        <div><span>Див 1</span></div>
+        <div><span>Див 2</span></div>
+        <div>Див 3
+                <button>Открыть скрытый див</button>
+
+        </div>
+
+
+    </article>
 </section>
     )
 }
