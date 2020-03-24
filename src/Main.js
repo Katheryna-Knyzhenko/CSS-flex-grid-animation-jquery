@@ -16,8 +16,8 @@ render() {
     <article>Article 1</article>
     <article>Article 2</article>
     <article>Article 3
-        <div><span>Див 1</span></div>
-        <div><span>Див 2</span></div>
+        <div className={styles.firstDivArticle3}><span>Див 1</span></div>
+        <div className={styles.secondDivArticle3}><span>Див 2</span></div>
         <div className={styles.divWithButton}>Див 3
             <p>
                 <button>Открыть скрытый див</button>

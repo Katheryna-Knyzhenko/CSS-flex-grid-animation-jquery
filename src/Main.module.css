@@ -6,7 +6,7 @@ article {
     flex: 1 200px;
     background-color: cornsilk;
     margin-left: 10px;
-    height: 950px;
+    height: 1000px;
 
 }
 
@@ -17,20 +17,22 @@ article:nth-of-type(3) {
     background-color: aliceblue;
 }
 
-article:nth-of-type(3) div {
+article:nth-of-type(3) .firstDivArticle3, .secondDivArticle3 {
     display: flex;
     margin-top: 10px;
-    background-color: cornsilk;
+    background-color: gold;
     height: 400px;
+    flex: 1 200px;
 }
 
 
 .divWithButton {
-    flex: 1 100px;
+    flex: 3 200px;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
     justify-content: space-around;
+    background-color: paleturquoise;
 }
 .divWithButton button {
     flex: 1;
