@@ -4,7 +4,7 @@ section {
 
 article {
     flex: 1 200px;
-    background-color: cornsilk;
+    background-color: blanchedalmond;
     margin-left: 10px;
     height: 1000px;
 
@@ -20,7 +20,7 @@ article:nth-of-type(3) {
 .firstDivArticle3, .secondDivArticle3 {
     display: flex;
     margin-top: 10px;
-    background-color: gold;
+    background-color: blanchedalmond;
     height: 400px;
     flex: 1 200px;
 }
@@ -38,9 +38,10 @@ article:nth-of-type(3) {
 .divWithButton button {
     flex: 1;
     margin: 5px;
-    font-size: 18px;
-    line-height: 1.5;
+    font-size: 17px;
+    line-height: 1;
     width: auto;
+    background-color: blanchedalmond;
 
 
 

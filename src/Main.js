@@ -1,5 +1,9 @@
 import React, {Component} from "react";
 import styles from './Main.module.css';
+import {NavLink} from "react-router-dom/modules/NavLink";
+import Redirect from "react-router/modules/Redirect";
+import Apartments from "./Apartments";
+
 
 
 class Main extends Component {
@@ -12,6 +16,7 @@ constructor () {
 render() {
 
     return (
+
 <section>
     <article>Article 1</article>
     <article>Article 2</article>
@@ -20,7 +25,8 @@ render() {
         <div className={styles.secondDivArticle3}><span>Див 2</span></div>
         <div className={styles.divWithButton}>Див 3
             <p>
-                <button>Открыть скрытый див</button>
+                <button>Варианты квартир<NavLink to = '/variantOfApartments'><Apartments/></NavLink></button>
+
             </p>
         </div>
 
