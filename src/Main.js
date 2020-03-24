@@ -18,9 +18,10 @@ render() {
     <article>Article 3
         <div><span>Див 1</span></div>
         <div><span>Див 2</span></div>
-        <div>Див 3
+        <div className={styles.divWithButton}>Див 3
+            <p>
                 <button>Открыть скрытый див</button>
-
+            </p>
         </div>
 
 
