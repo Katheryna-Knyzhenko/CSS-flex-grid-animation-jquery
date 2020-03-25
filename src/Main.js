@@ -27,6 +27,10 @@ render() {
         <div className={styles.divWithButton}>Див 3
             <p>
                 <NavLink to = '/variantsOfApartments'><button>Варианты квартир</button></NavLink>
+                <p>
+                <NavLink to = '/'>На главную</NavLink>
+                </p>
+
 
             </p>
         </div>
