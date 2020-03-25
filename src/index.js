@@ -14,8 +14,8 @@ import Buildings from "./Buildings";
 ReactDOM.render(
     <BrowserRouter>
         <div className={styles.wrapper}>
-        <Route path ='/' component={Main}/>
-            <Route path ='/buildings' component={Buildings}/>
+        <Route exact path ='/' component={Main}/>
+        <Route path ='/buildings' component={Buildings}/>
         <Route path ='/variantsOfApartments' component={Apartments}/>
     </div>
     </BrowserRouter>, document.getElementById("root"));

@@ -2,6 +2,7 @@ import React, {Component} from "react";
 import styles from './Main.module.css';
 import {NavLink, Route} from "react-router-dom";
 import {Redirect} from "react-router-dom";
+import Apartments from "./Apartments";
 
 
 
