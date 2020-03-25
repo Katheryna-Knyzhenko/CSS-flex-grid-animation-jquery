@@ -5,6 +5,7 @@ import {BrowserRouter, Route} from "react-router-dom";
 import Apartments from "./Apartments";
 import styles from './Main.module.css';
 import Buildings from "./Buildings";
+import Offices from "./Offices";
 
 
 
@@ -16,6 +17,7 @@ ReactDOM.render(
         <div className={styles.wrapper}>
         <Route exact path ='/' component={Main}/>
         <Route path ='/buildings' component={Buildings}/>
-        <Route path ='/variantsOfApartments' component={Apartments}/>
+        <Route path ='/appartments' component={Apartments}/>
+            <Route path ='/offices' component={Offices}/>
     </div>
     </BrowserRouter>, document.getElementById("root"));

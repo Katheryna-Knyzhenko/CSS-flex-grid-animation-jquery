@@ -39,15 +39,7 @@ article:nth-of-type(3) {
     background-color: paleturquoise;
     margin-top: 10px;
 }
-.divWithButton button {
-    flex: 1;
-    margin: 5px;
-    font-size: 17px;
-    line-height: 1;
-    width: auto;
-    background-color: blanchedalmond;
-}
-.secondDivArticle3 button {
+.divWithButton button, .secondDivArticle3  button, .firstDivArticle3 button {
     flex: 1;
     margin: 5px;
     font-size: 17px;
