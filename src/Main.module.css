@@ -23,6 +23,10 @@ article:nth-of-type(3) {
     background-color: blanchedalmond;
     height: 400px;
     flex: 1 200px;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: column wrap;
+
 }
 
 
@@ -42,7 +46,12 @@ article:nth-of-type(3) {
     line-height: 1;
     width: auto;
     background-color: blanchedalmond;
-
-
-
+}
+.secondDivArticle3 button {
+    flex: 1;
+    margin: 5px;
+    font-size: 17px;
+    line-height: 1;
+    width: auto;
+    background-color: blanchedalmond;
 }

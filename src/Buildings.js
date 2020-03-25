@@ -1,8 +1,8 @@
 import React, {Component} from "react";
-import styles from './Apartments.module.css'
+import styles from './Buildings.module.css'
 import {NavLink} from "react-router-dom";
 
-class Apartments extends Component {
+class Buildings extends Component {
     constructor() {
         super();
         this.state = {}
@@ -12,7 +12,7 @@ class Apartments extends Component {
 
         return (
 
-            <div className={styles.flatsVariants}>Apartments to choose
+            <div className={styles.buildingsVariants}>Buildings to choose
                 <p>
                     <NavLink to = '/'>На главную</NavLink>
                 </p>
@@ -21,4 +21,4 @@ class Apartments extends Component {
     }
 }
 
-export default Apartments;
+export default Buildings;
