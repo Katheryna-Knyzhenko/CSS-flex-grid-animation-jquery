@@ -4,7 +4,7 @@ section {
 
 article {
     flex: 1 200px;
-    background-color: blanchedalmond;
+    background-color: honeydew;
     margin-left: 10px;
     height: 1000px;
 
@@ -20,12 +20,12 @@ article:nth-of-type(3) {
 .firstDivArticle3, .secondDivArticle3 {
     display: flex;
     margin-top: 10px;
-    background-color: blanchedalmond;
     height: 400px;
     flex: 1 200px;
     align-items: center;
     justify-content: space-around;
     flex-flow: column wrap;
+    background-color: lightcyan;
 
 }
 
@@ -36,7 +36,7 @@ article:nth-of-type(3) {
     flex-flow: column wrap;
     align-items: center;
     justify-content: space-around;
-    background-color: paleturquoise;
+    background-color: lightcyan;
     margin-top: 10px;
 }
 .divWithButton button, .secondDivArticle3  button, .firstDivArticle3 button {
@@ -45,5 +45,6 @@ article:nth-of-type(3) {
     font-size: 17px;
     line-height: 1;
     width: auto;
-    background-color: blanchedalmond;
+    background-color: white;
+    color: cornflowerblue;
 }
