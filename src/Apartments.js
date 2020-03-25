@@ -10,6 +10,7 @@ class Apartments extends Component {
     render() {
 
         return (
+
             <div className={styles.flatsVariants}>Apartments to choose </div>
         )
     }

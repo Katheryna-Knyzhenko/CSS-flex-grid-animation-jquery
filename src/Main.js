@@ -26,7 +26,7 @@ render() {
         <div className={styles.secondDivArticle3}><span>Див 2</span></div>
         <div className={styles.divWithButton}>Див 3
             <p>
-                <NavLink to = '/variantsOfApartments'><button onClick={this.pageWithApartments}>Варианты квартир</button></NavLink>
+                <NavLink to = '/variantsOfApartments'><button>Варианты квартир</button></NavLink>
 
             </p>
         </div>
