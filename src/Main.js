@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import styles from './Main.module.css';
-import {NavLink} from "react-router-dom/modules/NavLink";
-import Redirect from "react-router/modules/Redirect";
+import {NavLink} from "react-router-dom";
+import {Redirect} from "react-router-dom";
 import Apartments from "./Apartments";
 
 
@@ -25,7 +25,7 @@ render() {
         <div className={styles.secondDivArticle3}><span>Див 2</span></div>
         <div className={styles.divWithButton}>Див 3
             <p>
-                <button>Варианты квартир<NavLink to = '/variantOfApartments'><Apartments/></NavLink></button>
+                <button onClick={this.pageWithApartments}>Варианты квартир</button>
 
             </p>
         </div>
@@ -35,7 +35,12 @@ render() {
 </section>
     )
 }
+pageWithApartments = () => {
+   return (
 
+    <NavLink to = '/variantsOfApartments'>{Apartments}</NavLink>
+   )
+}
 
 }
 

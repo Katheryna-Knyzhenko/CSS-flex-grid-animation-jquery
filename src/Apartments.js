@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import styles from './Apartments.module.css'
 
 class Apartments extends Component {
     constructor() {
@@ -9,7 +10,7 @@ class Apartments extends Component {
     render() {
 
         return (
-            <div>Apartments to choose </div>
+            <div className={styles.flatsVariants}>Apartments to choose </div>
         )
     }
 }

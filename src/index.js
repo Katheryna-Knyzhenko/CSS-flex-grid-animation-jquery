@@ -12,9 +12,7 @@ import Apartments from "./Apartments";
 ReactDOM.render(
     <BrowserRouter>
         {/*<Router history={browserHistory}>*/}
-        <Route path='/' component={Main}>
-        <Route path='/variantsOfApartments' component={Apartments}/>
-        </Route>
-        {/*</Router>*/}
-
+        <Route path ='/' component={Main}/>
+        <Route path ='/variantsOfApartments' component={Apartments}/>
+<Main/>
     </BrowserRouter>, document.getElementById("root"));
