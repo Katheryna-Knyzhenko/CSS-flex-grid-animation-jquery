@@ -1,8 +1,9 @@
 import React, {Component} from "react";
 import styles from './Main.module.css';
-import {NavLink} from "react-router-dom";
+import {NavLink, Route} from "react-router-dom";
 import {Redirect} from "react-router-dom";
 import Apartments from "./Apartments";
+
 
 
 
@@ -25,7 +26,7 @@ render() {
         <div className={styles.secondDivArticle3}><span>Див 2</span></div>
         <div className={styles.divWithButton}>Див 3
             <p>
-                <button onClick={this.pageWithApartments}>Варианты квартир</button>
+                <NavLink to = '/variantsOfApartments'><button onClick={this.pageWithApartments}>Варианты квартир</button></NavLink>
 
             </p>
         </div>
@@ -35,13 +36,9 @@ render() {
 </section>
     )
 }
-pageWithApartments = () => {
-   return (
 
-    <NavLink to = '/variantsOfApartments'>{Apartments}</NavLink>
-   )
-}
 
 }
+
 
 export default Main;
