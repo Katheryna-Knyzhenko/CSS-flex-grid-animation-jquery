@@ -12,11 +12,20 @@ class Offices extends Component {
 
         return (
 
-            <div className={styles.offices}>Offices to choose
+            <section className={styles.offices}>
+                <p>Объявления</p>
+                <article>
+                </article>
+                <article>
+                </article>
+            <article>
+            </article>
+                <article>
                 <p>
                     <NavLink to = '/'>На главную</NavLink>
                 </p>
-            </div>
+                </article>
+            </section>
         )
     }
 }
