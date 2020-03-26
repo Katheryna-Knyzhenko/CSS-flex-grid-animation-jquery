@@ -19,11 +19,9 @@ ReactDOM.render(
     <BrowserRouter>
         <Header/>
         <SideBar/>
-        <div className={styles.wrapper}>
         <Route exact path ='/' component={Main}/>
         <Route path ='/buildings' component={Buildings}/>
         <Route path ='/appartments' component={Apartments}/>
             <Route path ='/offices' component={Offices}/>
-            <Footer/>
-    </div>
+        <Footer/>
     </BrowserRouter>, document.getElementById("root"));
