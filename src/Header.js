@@ -14,7 +14,6 @@ class Header extends Component {
 
             <div className={styles.header}>
                 <p> <span>Аренда квартир/домов/оффисов</span>
-                    <NavLink to = '/'>На главную</NavLink>
                 </p>
             </div>
         )

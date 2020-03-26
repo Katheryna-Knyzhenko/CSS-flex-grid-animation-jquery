@@ -7,6 +7,7 @@ import styles from './Main.module.css';
 import Buildings from "./Buildings";
 import Offices from "./Offices";
 import Header from "./Header";
+import SideBar from "./SideBar";
 
 
 
@@ -16,6 +17,7 @@ import Header from "./Header";
 ReactDOM.render(
     <BrowserRouter>
         <Header/>
+        <SideBar/>
         <div className={styles.wrapper}>
         <Route exact path ='/' component={Main}/>
         <Route path ='/buildings' component={Buildings}/>
