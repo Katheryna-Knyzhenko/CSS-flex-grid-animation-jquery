@@ -8,6 +8,7 @@ import Buildings from "./Buildings";
 import Offices from "./Offices";
 import Header from "./Header";
 import SideBar from "./SideBar";
+import Footer from "./Footer";
 
 
 
@@ -23,5 +24,6 @@ ReactDOM.render(
         <Route path ='/buildings' component={Buildings}/>
         <Route path ='/appartments' component={Apartments}/>
             <Route path ='/offices' component={Offices}/>
+            <Footer/>
     </div>
     </BrowserRouter>, document.getElementById("root"));
