@@ -1,6 +1,9 @@
 .header {
-    background-color: floralwhite;
-    height: 100px;
+    background-image: url("./headerPicture.jpg");
+    background-size:  100% auto;
+    background-repeat: no-repeat;
+    height: 150px;
     margin-bottom: 10px;
+    background-position: 30% 70%;
 
 }
