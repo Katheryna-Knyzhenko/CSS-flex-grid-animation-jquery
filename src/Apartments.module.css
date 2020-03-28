@@ -18,6 +18,18 @@
 
     position: absolute;
     z-index: 12;
+    text-align: center;
+    opacity: 1;
+    text-decoration: none;
+
+}
+
+.navlinkToMain:hover {
+    opacity: 0.8;
+    color: green;
+    transform: rotate(180deg);
+
+
 
 }
 .wrap {
@@ -25,3 +37,14 @@
     z-index: 1;
 
  }
+.nav {
+     text-decoration: none;
+    color: cadetblue;
+ }
+.nav:visited {
+    text-decoration: none;
+    color: red;
+}
+.nav:hover {
+    color: blue;
+}
