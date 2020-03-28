@@ -1,15 +1,11 @@
 .flatsVariants {
     height: 1000px;
     background-image: url("./appPicture.jpg");
+    background-color: lightblue;
     background-repeat: no-repeat;
-    background-size: 100%, cover;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    z-index: -1;
-    opacity: 0.5;
+    background-size: cover;
+    position: relative;
+    opacity: 0.6;
     background-position: top center;
     text-align: left;
 
@@ -17,21 +13,16 @@
 .navlinkToMain {
 
     position: relative;
-    z-index: 2;
+    z-index: -1;
     text-align: center;
     color: rgba(0,0,0,0.9);
     text-decoration: none;
-
-
 }
 
 .navlinkToMain:hover {
     opacity: 0.8;
     color: green;
     transform: rotate(180deg);
-
-
-
 }
 .wrap {
      position: relative;
