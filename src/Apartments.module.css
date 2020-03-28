@@ -2,16 +2,20 @@
     height: 1000px;
     background-image: url("./appPicture.jpg");
     background-repeat: no-repeat;
-    background-size: auto;
-    width: auto;
-    background-color: rgba(255,255,255, 0.4);
+    background-size: 100%, cover;
     position: absolute;
     top: 0;
     bottom: 0;
     right: 0;
     left: 0;
-    z-index: -1;
+    z-index: -10;
     opacity: 0.5;
-    margin: 10px 10px 10px 10px;
+    background-position: top center;
 
+}
+.navlinkToMain {
+    position: inherit;
+}
+.wrap {
+    position: relative;
 }

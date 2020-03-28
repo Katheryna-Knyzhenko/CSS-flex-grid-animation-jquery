@@ -11,12 +11,13 @@ class Apartments extends Component {
     render() {
 
         return (
-
+<div className={styles.wrap}>
             <div className={styles.flatsVariants}>Apartments to choose
-                <p>
+                <p className={styles.navlinkToMain}>
                     <NavLink to = '/'>На главную</NavLink>
                 </p>
             </div>
+</div>
         )
     }
 }
