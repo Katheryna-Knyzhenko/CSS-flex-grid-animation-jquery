@@ -1,22 +1,30 @@
-.flatsVariants {
-    height: 1000px;
-    background-image: url("./appPicture.jpg");
-    background-color: lightblue;
-    background-repeat: no-repeat;
-    background-size: cover;
+.wrap {
     position: relative;
-    opacity: 0.6;
-    background-position: top center;
-    text-align: left;
-
+    z-index: 2;
+    display: block;
 }
+
+.flatsVariants {
+     height: 1000px;
+     background-image: url("./appPicture.jpg");
+     background-color: lightblue;
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+     opacity: 0.6;
+     background-position: top center;
+     text-align: left;
+     z-index: -1;
+
+
+ }
 .navlinkToMain {
 
-    position: relative;
-    z-index: -1;
+    position: inherit;
     text-align: center;
     color: rgba(0,0,0,0.9);
     text-decoration: none;
+    z-index: 2;
 }
 
 .navlinkToMain:hover {
@@ -24,15 +32,12 @@
     color: green;
     transform: rotate(180deg);
 }
-.wrap {
-     position: relative;
-    z-index: -1;
- }
+
 .nav {
-     text-decoration: none;
+    text-decoration: none;
     color: cadetblue;
 
- }
+}
 .nav:visited {
     text-decoration: none;
     color: red;
