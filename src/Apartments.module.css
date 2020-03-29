@@ -4,8 +4,10 @@
 }
 
 .flatsVariants {
-    height: 1000px;
-    width: 880px;
+    display: block;
+    min-height: 1000px;
+    min-width: 880px;
+    max-width: 100%;
      background-color: rgba(0,0,0,0.6);
      background-repeat: no-repeat;
      background-size: cover;
@@ -14,6 +16,7 @@
      text-align: left;
     background-image: url("./appPicture.jpg");
     opacity: 0.6;
+    overflow: hidden;
 
 
 
