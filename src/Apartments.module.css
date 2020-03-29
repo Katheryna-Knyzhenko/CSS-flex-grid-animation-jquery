@@ -29,7 +29,7 @@
 }
 
 
-.navlinkToMain:hover {
+.navlinkToMain p:hover {
     opacity: 0.8;
     color: green;
     transform: scale(1.2);
