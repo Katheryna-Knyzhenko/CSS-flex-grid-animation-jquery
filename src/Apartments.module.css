@@ -1,18 +1,17 @@
 .wrap {
     position: relative;
-    z-index: 2;
-    display: block;
+    display: inline-block;
 }
 
 .flatsVariants {
-     height: 1000px;
+    height: 1000px;
+    width: 880px;
      background-color: rgba(0,0,0,0.6);
      background-repeat: no-repeat;
      background-size: cover;
      position: relative;
      background-position: top center;
      text-align: left;
-     z-index: -1;
     background-image: url("./appPicture.jpg");
     opacity: 0.6;
 
@@ -20,18 +19,17 @@
 
  }
 .navlinkToMain {
-
     position: static;
     text-align: center;
-    color: rgba(0,0,0,1);
+    color: rgba(0, 0, 0, 1);
     text-decoration: none;
-    z-index: 2;
 }
+
 
 .navlinkToMain:hover {
     opacity: 0.8;
     color: green;
-    transform: scale(1.2) ;
+    transform: scale(1.2);
 }
 
 .nav {
