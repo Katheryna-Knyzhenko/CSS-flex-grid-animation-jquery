@@ -7,7 +7,7 @@
 .flatsVariants {
      height: 1000px;
      background-image: url("./appPicture.jpg");
-     background-color: lightblue;
+     background-color: rgba(0,0,0,0.6);
      background-repeat: no-repeat;
      background-size: cover;
      position: relative;
@@ -20,9 +20,9 @@
  }
 .navlinkToMain {
 
-    position: inherit;
+    position: static;
     text-align: center;
-    color: rgba(0,0,0,0.9);
+    color: rgba(0,0,0,1);
     text-decoration: none;
     z-index: 2;
 }
