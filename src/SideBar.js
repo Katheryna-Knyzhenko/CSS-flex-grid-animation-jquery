@@ -14,6 +14,12 @@ class SideBar extends Component {
             <div className={styles.sidebar}>
                 <p> <span>Информация о сайте</span>
                 </p>
+                <form>
+                <textarea type="text" placeholder="Что вы ищите?"></textarea>
+                    <p>
+                <button>Отправить</button>
+                    </p>
+                </form>
             </div>
             <div className={styles.sidebar2}>
                 <p> <span>Информация о сайте</span>
