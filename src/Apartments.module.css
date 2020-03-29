@@ -31,7 +31,7 @@
 .navlinkToMain:hover {
     opacity: 0.8;
     color: green;
-    transform: rotate(180deg);
+    transform: scale(1.2) ;
 }
 
 .nav {

@@ -18,9 +18,12 @@ class Apartments extends Component {
                     <NavLink className={styles.nav} to = '/'>На главную</NavLink>
                     </p>
                     <p>
-                        Не выходит этот элемент
+                        <textarea type="text" placeholder="Что вы ищите?"></textarea>
                     </p>
+                    <button>Отправить</button>
+
                 </div>
+
             </div>
 </div>
         )
