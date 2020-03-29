@@ -4,7 +4,7 @@
 }
 
 .flatsVariants {
-    display: block;
+    display: inline-block;
     min-height: 1000px;
     min-width: 880px;
     max-width: 100%;
