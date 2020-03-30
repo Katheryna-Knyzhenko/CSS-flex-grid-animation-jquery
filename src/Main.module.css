@@ -69,3 +69,7 @@ article:nth-of-type(3) {
     background-position: center;
 
 }
+.firstArticle, .secondArticle {
+    background-color: lightblue;
+}
+

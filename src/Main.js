@@ -20,8 +20,8 @@ render() {
     return (
 
 <section>
-    <article>Article 1</article>
-    <article>Article 2</article>
+    <article className={styles.firstArticle}>Article 1</article>
+    <article className={styles.secondArticle}>Article 2</article>
     <article>Article 3
         <div className={styles.firstDivArticle3}>
             <NavLink to = '/offices'><button>Аренда офисных помещений</button></NavLink>

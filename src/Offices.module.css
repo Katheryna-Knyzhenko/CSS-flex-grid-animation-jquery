@@ -1,19 +1,15 @@
 .offices {
-    background-color: aliceblue;
     height: 1000px;
-}
-section {
     display: flex;
-
 }
 article {
     flex: 1 200px;
     display: flex;
-    background-color: greenyellow;
+    background-color: lightcyan;
 }
 
-article:nth-of-type(2) {
+article:nth-of-type(3) {
     flex: 3 200px;
     display: flex;
-    background-color: cadetblue;
+    background-color: lightblue;
 }
