@@ -15,7 +15,7 @@
  }
 
 .building1 {
-    background-color: honeydew;
+    background-color: ivory;
     grid-area: firstA;
 }
 .building2 {
@@ -25,4 +25,13 @@
 .building3 {
     background-color: honeydew;
     grid-area: thirdA;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+
+.building3 div {
+    background-color: ivory;
+    padding: 10px;
 }
