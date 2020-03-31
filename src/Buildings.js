@@ -12,10 +12,10 @@ class Buildings extends Component {
 
         return (
 
-            <div className={styles.buildingsVariants}>Buildings to choose
-                <p>
-                    <NavLink to = '/'>На главную</NavLink>
-                </p>
+            <div className={styles.buildingsVariants}>
+                <div className={styles.building1}>1</div>
+                <div className={styles.building2}>2</div>
+                <div className={styles.building3}>3</div>
             </div>
         )
     }

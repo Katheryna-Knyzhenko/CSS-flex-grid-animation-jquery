@@ -13,20 +13,29 @@ class Offices extends Component {
         return (
 
             <section className={styles.offices}>
-                <article>
-                <p>Объявления</p>
+
+                <article className={styles.article1}> Офис 1
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
                 </article>
-                <article> Офис 1
+                <article className={styles.article2}> Офис 2
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
                 </article>
-                <article> Офис 2
-                </article>
-            <article className={styles.article3}> Офис 3
+            <article className={styles.article3}> Горячие предложения
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
             </article>
-                <article>
-                <p>
-                    <NavLink to = '/'>На главную</NavLink>
-                </p>
-                </article>
+
             </section>
         )
     }

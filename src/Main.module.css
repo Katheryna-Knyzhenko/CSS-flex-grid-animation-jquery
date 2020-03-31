@@ -70,6 +70,14 @@ article:nth-of-type(3) {
 
 }
 .firstArticle, .secondArticle {
-    background-color: lightblue;
+    background-color: whitesmoke;
+    display: flex;
+    flex-flow: column;
+}
+
+.firstArticle div, .secondArticle div {
+    flex: 1 200px;
+    background-color: lightcyan;
+    margin: 10px;
 }
 

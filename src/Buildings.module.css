@@ -1,4 +1,9 @@
 .buildingsVariants {
      background-color: aliceblue;
      height: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    padding: 1%;
+    grid-column-gap: 10px;
+
  }

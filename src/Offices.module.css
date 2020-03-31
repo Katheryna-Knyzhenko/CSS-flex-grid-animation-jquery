@@ -1,6 +1,7 @@
 .offices {
-    height: 1000px;
+    height: 100%;
     display: flex;
+    margin: 10px;
 }
 article {
     flex: 1 200px;
@@ -12,4 +13,25 @@ article:nth-of-type(3) {
     flex: 3 200px;
     display: flex;
     background-color: lightblue;
+    flex-flow: column;
+    text-align: center;
+    padding-top: 10px;
+}
+article:nth-of-type(3) div {
+    flex: 1 200px;
+    display: flex;
+    background-color: whitesmoke;
+    margin: 10px;
+}
+.article1, .article2 {
+    display: flex;
+    flex-flow: column;
+    padding-top: 10px;
+}
+
+.article1 div, .article2 div {
+    flex: 1 200px;
+    display: flex;
+    background-color: white;
+    margin: 10px;
 }
