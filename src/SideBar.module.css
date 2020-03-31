@@ -1,6 +1,6 @@
 .sidebar {
     height: 1000px;
-    background-color: whitesmoke;
+    background-color: aliceblue;
     float: left;
     width: 20%;
     margin-right: 10px;
@@ -9,7 +9,7 @@
 
 .sidebar2 {
     height: 1000px;
-    background-color: whitesmoke;
+    background-color: aliceblue;
     float: right;
     width: 20%;
     margin-left: 10px;

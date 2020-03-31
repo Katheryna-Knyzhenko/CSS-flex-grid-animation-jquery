@@ -1,9 +1,28 @@
 .buildingsVariants {
-     background-color: aliceblue;
-     height: 1000px;
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    background-color: rgba(102, 255, 211, 0.2);
     padding: 1%;
-    grid-column-gap: 10px;
+    width: 57%;
+    height: 95.5vh;
+    display: grid;
 
+    grid-template-areas:
+            "firstA firstA"
+            "secondA thirdA";
+    grid-template-columns: 5fr 10fr;
+    grid-gap: 10px;
+    grid-template-rows: 1fr 6fr;
+    margin: 0;
  }
+
+.building1 {
+    background-color: honeydew;
+    grid-area: firstA;
+}
+.building2 {
+    background-color: azure;
+    grid-area: secondA;
+}
+.building3 {
+    background-color: honeydew;
+    grid-area: thirdA;
+}
