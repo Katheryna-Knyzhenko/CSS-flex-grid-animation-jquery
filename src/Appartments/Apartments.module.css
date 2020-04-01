@@ -22,7 +22,7 @@
      position: absolute;
      background-position: center center;
      text-align: left;
-    background-image: url("./appPicture.jpg");
+    background-image: url("appPicture.jpg");
     opacity: 0.6;
     overflow: hidden;
     background-attachment: fixed;

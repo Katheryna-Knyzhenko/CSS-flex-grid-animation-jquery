@@ -1,15 +1,15 @@
 import * as React from 'react';
-import Main from './Main';
+import Main from './Appartments/Main/Main';
 import ReactDOM from 'react-dom';
 import {BrowserRouter, Route} from "react-router-dom";
-import Apartments from "./Apartments";
-import styles from './Main.module.css';
-import Buildings from "./Buildings";
-import Offices from "./Offices";
-import Header from "./Header";
-import SideBar from "./SideBar";
-import Footer from "./Footer";
-import FlatsList from "./FlatsList";
+import Apartments from "./Appartments/Apartments";
+import styles from './Appartments/Main/Main.module.css';
+import Buildings from "./Buildings/Buildings";
+import Offices from "./Offices/Offices";
+import Header from "./Header/Header";
+import SideBar from "./SideBar/SideBar";
+import Footer from "./Footer/Footer";
+import FlatsList from "./FlatsList/FlatsList";
 
 
 

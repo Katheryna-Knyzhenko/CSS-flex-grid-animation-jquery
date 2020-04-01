@@ -2,5 +2,5 @@
     width: 58%;
     display: grid;
     background: radial-gradient( ellipse at 90% 30%, lightskyblue, lightblue, lightcyan, honeydew) ;
-    height: 1000px;
+    height: 100vh;
 }
