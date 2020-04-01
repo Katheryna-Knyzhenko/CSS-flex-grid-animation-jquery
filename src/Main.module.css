@@ -1,12 +1,13 @@
 section {
     display: flex;
+    height: 100vh;
 }
 
 article {
     flex: 1 200px;
     background-color: honeydew;
     margin-left: 10px;
-    height: 1000px;
+
 
 }
 

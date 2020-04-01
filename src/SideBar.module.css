@@ -10,9 +10,10 @@
 
 .sidebar2 {
     height: 100vh;
-    background-color: aliceblue;
+    background: repeating-radial-gradient( ellipse at 100% 30%, lightskyblue 30px, lightblue 30px, lightcyan 60px, honeydew 60px);;
     float: right;
     width: 20%;
     margin-left: 10px;
     margin-bottom: 10px;
+
 }
