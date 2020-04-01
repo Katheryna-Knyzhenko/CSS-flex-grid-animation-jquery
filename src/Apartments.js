@@ -15,7 +15,7 @@ class Apartments extends Component {
             <div className={styles.flatsVariants}>Apartments to choose
                 <div className={styles.navlinkToMain}>
                     <p>
-                    <NavLink className={styles.nav} to = '/'>На главную</NavLink>
+                    <NavLink className={styles.nav} to = '/flatsList'>Перейти к списку квартир</NavLink>
                     </p>
                     <p>
                         <textarea type="text" placeholder="Что вы ищите?"></textarea>
