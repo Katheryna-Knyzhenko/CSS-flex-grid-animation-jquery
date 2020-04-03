@@ -2,5 +2,13 @@
     max-width: 58%;
     display: grid;
     background: radial-gradient( ellipse at 90% 30%, lightskyblue, lightblue, lightcyan, honeydew) ;
-    height: 100vh;
+    height: calc(100vh - 20px);
+    padding: 10px;
+}
+
+.list {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
 }
