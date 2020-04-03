@@ -1,6 +1,7 @@
 .footer {
     background-color: aliceblue;
-    height: 100px;
+    height: 200px;
     clear: both;
     margin-top: 10px;
+    padding: 10px;
 }
