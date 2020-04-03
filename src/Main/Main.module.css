@@ -82,3 +82,6 @@ article:nth-of-type(3) {
     margin: 10px;
 }
 
+.buttonB:hover {
+    background-color: black;
+}

@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import styles from './Footer.module.css';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faCoffee, faEnvelopeOpen, faPhone, faTaxi, faVenusDouble} from "@fortawesome/free-solid-svg-icons";
+import { faEnvelopeOpen, faPhone} from "@fortawesome/free-solid-svg-icons";
 
 
 

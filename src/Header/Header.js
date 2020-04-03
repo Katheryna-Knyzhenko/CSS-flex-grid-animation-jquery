@@ -13,7 +13,7 @@ class Header extends Component {
         return (
 
             <div className={styles.header}>
-                <p> <span>Аренда квартир/домов/оффисов</span>
+                <p> <span className={styles.aboutSite}>Аренда квартир/домов/оффисов</span>
                 </p>
             </div>
         )

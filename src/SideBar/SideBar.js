@@ -13,10 +13,7 @@ class SideBar extends Component {
         return (
 <div>
             <div className={styles.sidebar}>
-                <p> <span>Информация о сайте</span>
-                </p>
-                <p>
-                    <NavLink to = '/'>На главную</NavLink>
+                <p> <span className={styles.aboutSite}>Информация о сайте</span>
                 </p>
                 <form>
                 <textarea className={styles.textArea} type="text" placeholder="Что вы ищите?"></textarea>
@@ -26,7 +23,7 @@ class SideBar extends Component {
                 </form>
             </div>
             <div className={styles.sidebar2}>
-                <p> <span>Информация о сайте</span>
+                <p> <span className={styles.aboutSite}>Информация о сайте</span>
                 </p>
             </div>
 </div>

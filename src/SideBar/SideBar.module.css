@@ -25,3 +25,7 @@
 .sidebar .button {
     max-width: 50%;
 }
+
+.aboutSite:hover {
+    color: blue;
+}

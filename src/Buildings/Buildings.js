@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import styles from './Buildings.module.css'
-import {NavLink} from "react-router-dom";
+
 
 class Buildings extends Component {
     constructor() {
