@@ -17,3 +17,11 @@
     margin-bottom: 10px;
 
 }
+
+.textArea {
+   width: 80%;
+}
+
+.sidebar .button {
+    max-width: 50%;
+}

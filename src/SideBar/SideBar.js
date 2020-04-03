@@ -19,7 +19,7 @@ class SideBar extends Component {
                     <NavLink to = '/'>На главную</NavLink>
                 </p>
                 <form>
-                <textarea type="text" placeholder="Что вы ищите?"></textarea>
+                <textarea className={styles.textArea} type="text" placeholder="Что вы ищите?"></textarea>
                     <p>
                 <button>Отправить</button>
                     </p>
