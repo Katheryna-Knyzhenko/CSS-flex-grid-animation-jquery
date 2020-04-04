@@ -17,17 +17,22 @@
     max-height: 99.5vh;
     height: 99.5vh;
 
+
+
 }
 .list {
     grid-area: l;
     text-align: center;
     border: 2px solid  lightskyblue;
-    border-radius: 10%;
+    border-radius: 10px;
     box-shadow: 0 0 4px 2px cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .variants {
     border: 2px solid lightblue;
-    border-radius: 10%;
+    border-radius: 10px;
     box-shadow: 0 0 4px 2px cadetblue;
     text-align: center;
     padding: 10px;
