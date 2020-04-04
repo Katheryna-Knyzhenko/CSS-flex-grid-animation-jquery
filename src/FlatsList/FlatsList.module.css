@@ -1,31 +1,51 @@
 * {box-sizing: border-box;}
 
 .wrapper {
-    max-width: 58%;
+    max-width: 59%;
     display: grid;
     background: radial-gradient( ellipse at 90% 30%, lightskyblue, lightblue, lightcyan, honeydew) ;
-    height: calc(100vh - 20px);
+
     padding: 10px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 3fr 3fr;
     grid-row-gap: 20px;
     grid-column-gap: 20px;
     grid-template-areas: "l l l l"
-                          "v v v v" ;
+                          "v1 v2 v3 v4" ;
     overflow: visible;
     float: none;
+    max-height: 99.5vh;
+    height: 99.5vh;
 
 }
 .list {
     grid-area: l;
     text-align: center;
-    border: 2px solid black;
+    border: 2px solid  lightskyblue;
+    border-radius: 10%;
+    box-shadow: 0 0 4px 2px cadetblue;
 }
 .variants {
-    grid-area: v;
-    background-color: gold;
+    border: 2px solid lightblue;
+    border-radius: 10%;
+    box-shadow: 0 0 4px 2px cadetblue;
+    text-align: center;
+    padding: 10px;
+}
+
+.variants.variants1 {
+    grid-area: v1;
+    border: 2px solid black;
+}
+.variants.variants2 {
+    grid-area: v2;
     border: 3px solid black;
 }
-.variants.variant1 {
-    background-color: yellow;
+.variants.variants3 {
+    grid-area: v3;
+    border: 3px solid black;
+}
+.variants.variants4 {
+    grid-area: v4;
+    border: 3px solid black;
 }
