@@ -25,6 +25,7 @@ class SideBar extends Component {
             <div className={styles.sidebar2}>
                 <p> <span className={styles.aboutSite}>Информация о сайте</span>
                 </p>
+                <NavLink to = "/">На главную</NavLink>
             </div>
 </div>
 
