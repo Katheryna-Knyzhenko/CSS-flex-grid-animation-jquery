@@ -98,7 +98,7 @@ background-image: url("./spritesheet.png");
 }
 .picThree {
     background-image: url("./spritesheet.png");
-    background-position: right bottom;
+    background-position: center bottom;
     background-repeat: no-repeat;
 
 
