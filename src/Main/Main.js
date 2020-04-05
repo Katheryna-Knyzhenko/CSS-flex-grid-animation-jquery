@@ -19,7 +19,7 @@ render() {
 
 <section>
     <article className={styles.firstArticle}>
-    <div className={styles.picOne}></div>
+        <div className={styles.picOne}></div>
     <div className={styles.picTwo}></div>
     <div className={styles.picThree}></div>
     </article>
@@ -28,7 +28,7 @@ render() {
         <div></div>
         <div></div>
     </article>
-    <article>Article 3
+    <article>
         <div className={styles.firstDivArticle3}>
             <NavLink to = '/offices'><button className={styles.buttonB}>Аренда офисных помещений</button></NavLink>
 

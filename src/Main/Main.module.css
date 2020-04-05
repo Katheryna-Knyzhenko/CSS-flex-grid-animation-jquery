@@ -6,7 +6,8 @@ section {
 article {
     flex: 1 200px;
     background-color: honeydew;
-    margin-left: 10px;
+
+    margin: 2px;
 
 
 }
@@ -16,6 +17,7 @@ article:nth-of-type(3) {
     display: flex;
     flex-flow: column;
     background-color: aliceblue;
+
 }
 
 .firstDivArticle3, .secondDivArticle3 {
@@ -37,7 +39,7 @@ article:nth-of-type(3) {
     align-items: center;
     justify-content: space-around;
     background-color: lightcyan;
-    margin-top: 10px;
+    margin: 10px;
 }
 .divWithButton button, .secondDivArticle3  button, .firstDivArticle3 button {
     flex: 1;
