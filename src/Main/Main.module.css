@@ -88,17 +88,23 @@ article:nth-of-type(3) {
 
 .picOne {
 background-image: url("./spritesheet.png");
-    background-position: 5px -80px;
+    background-position: -665px -5px;
     background-repeat: no-repeat;
+    width: 400px;
+    height: 400px;
 }
 .picTwo {
     background-image: url("./spritesheet.png");
-    background-position: -150px center;
+    background-position:  -95px -770px;
     background-repeat: no-repeat;
+    width: 400px;
+    height: 400px;
 }
 .picThree {
+    width: 400px;
+    height: 400px;
     background-image: url("./spritesheet.png");
-    background-position: center bottom;
+    background-position: -665px -1400px;
     background-repeat: no-repeat;
 
 
