@@ -88,12 +88,12 @@ article:nth-of-type(3) {
 
 .picOne {
 background-image: url("./spritesheet.png");
-    background-position: 0 -80px;
+    background-position: 5px -80px;
     background-repeat: no-repeat;
 }
 .picTwo {
     background-image: url("./spritesheet.png");
-    background-position: -200px center;
+    background-position: -150px center;
     background-repeat: no-repeat;
 }
 .picThree {
