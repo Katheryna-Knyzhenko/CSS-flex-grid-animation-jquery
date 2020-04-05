@@ -6,10 +6,7 @@ section {
 article {
     flex: 1 200px;
     background-color: honeydew;
-
-    margin: 2px;
-
-
+    margin: 5px;
 }
 
 article:nth-of-type(3) {
@@ -17,18 +14,16 @@ article:nth-of-type(3) {
     display: flex;
     flex-flow: column;
     background-color: aliceblue;
-
+    padding-top: 0;
 }
 
 .firstDivArticle3, .secondDivArticle3 {
     display: flex;
-    margin-top: 10px;
     height: 400px;
     flex: 1 200px;
     align-items: center;
     justify-content: space-around;
     flex-flow: column wrap;
-
 }
 
 
