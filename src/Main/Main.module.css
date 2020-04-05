@@ -85,3 +85,21 @@ article:nth-of-type(3) {
 .buttonB:hover {
     background-color: black;
 }
+
+.picOne {
+background-image: url("./spritesheet.png");
+    background-position: 0 -80px;
+    background-repeat: no-repeat;
+}
+.picTwo {
+    background-image: url("./spritesheet.png");
+    background-position: -200px center;
+    background-repeat: no-repeat;
+}
+.picThree {
+    background-image: url("./spritesheet.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+
+
+}

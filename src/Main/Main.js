@@ -18,12 +18,12 @@ render() {
     return (
 
 <section>
-    <article className={styles.firstArticle}>Article 1
-    <div></div>
-    <div></div>
-    <div></div>
+    <article className={styles.firstArticle}>
+    <div className={styles.picOne}></div>
+    <div className={styles.picTwo}></div>
+    <div className={styles.picThree}></div>
     </article>
-    <article className={styles.secondArticle}>Article 2
+    <article className={styles.secondArticle}>
         <div></div>
         <div></div>
         <div></div>
