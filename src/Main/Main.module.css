@@ -92,6 +92,7 @@ background-image: url("./spritesheet.png");
     background-repeat: no-repeat;
     width: 400px;
     height: 400px;
+    opacity: 0.7;
 }
 .picTwo {
     background-image: url("./spritesheet.png");
@@ -99,6 +100,8 @@ background-image: url("./spritesheet.png");
     background-repeat: no-repeat;
     width: 400px;
     height: 400px;
+    opacity: 0.7;
+
 }
 .picThree {
     width: 400px;
@@ -106,6 +109,32 @@ background-image: url("./spritesheet.png");
     background-image: url("./spritesheet.png");
     background-position: -665px -1400px;
     background-repeat: no-repeat;
+    opacity: 0.7;
+}
 
+.picOne:hover {
+    background-image: url("./spritesheet.png");
+    background-position: -5px -140px;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 400px;
+    opacity: 0.7;
+}
+.picTwo:hover {
+    background-image: url("./spritesheet.png");
+    background-position:  -695px -770px;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 400px;
+    opacity: 0.7;
 
+}
+
+.picThree:hover {
+    width: 400px;
+    height: 400px;
+    background-image: url("./spritesheet.png");
+    background-position: -1378px -1330px;
+    background-repeat: no-repeat;
+    opacity: 0.7;
 }
