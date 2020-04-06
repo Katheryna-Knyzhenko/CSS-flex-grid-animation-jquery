@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import styles from './Buildings.module.css'
-
+import {Parallax} from "parallax-js";
 
 class Buildings extends Component {
     constructor() {
@@ -12,8 +12,8 @@ class Buildings extends Component {
 
         return (
 
-            <div className={styles.buildingsVariants}>
-                <div className={styles.building1}>1</div>
+            <div className={styles.buildingsVariants} id = "scene">
+                <div className={styles.building1} data-deep = "0.2" >1</div>
                 <div className={styles.building2}>2</div>
                 <div className={styles.building3}>
                 <div className={styles.home1}>Домик 1</div>
