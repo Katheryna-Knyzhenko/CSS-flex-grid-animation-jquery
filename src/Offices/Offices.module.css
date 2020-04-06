@@ -10,23 +10,24 @@ article {
 }
 
 .article3 {
-
     display: flex;
     flex: 3 200px;
     flex-flow: column;
     text-align: center;
     padding: 10px;
     color: orangered;
-    background-color: cornsilk !important;
+    background-color: azure !important;
     flex-grow: 2;
+
 }
 
-.article3 div {
+.article3>div {
     flex: 1 200px;
     display: flex;
     background-color: cadetblue;
     margin: 10px;
-    filter: opacity(0.2);
+    filter: opacity(0.8);
+    border: solid 2px cadetblue;
 }
 .article3:hover {
     color: cadetblue;
@@ -43,6 +44,6 @@ article {
 .article1 div, .article2 div {
     flex: 1 200px;
     display: flex;
-    background-color: white;
+    background-color: azure;
     margin: 10px;
 }
