@@ -7,7 +7,12 @@
     color: olivedrab;
     margin-bottom: 10px;
 }
-
+.sidebar:hover {
+    filter: hue-rotate(290deg);
+}
+.sidebar2:hover {
+    filter: hue-rotate(330deg);
+}
 .sidebar2 {
     height: 99vh;
     background: repeating-radial-gradient( ellipse at 100% 30%, lightskyblue 30px, lightblue 30px, lightcyan 60px, honeydew 60px);;

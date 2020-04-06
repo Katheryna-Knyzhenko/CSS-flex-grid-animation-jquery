@@ -7,8 +7,9 @@
     display: block;
     overflow: hidden;
     margin: 0;
-
-
+}
+.wrap:hover {
+    filter: hue-rotate(330deg);
 }
 
 .flatsVariants {

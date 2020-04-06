@@ -1,6 +1,7 @@
 section {
     display: flex;
     height: 100vh;
+
 }
 
 article {
@@ -71,6 +72,7 @@ article:nth-of-type(3) {
     background-color: whitesmoke;
     display: flex;
     flex-flow: column;
+
 }
 
 .firstArticle div, .secondArticle div {
