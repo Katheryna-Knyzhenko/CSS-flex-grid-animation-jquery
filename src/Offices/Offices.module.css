@@ -10,13 +10,15 @@ article {
 }
 
 .article3 {
-    flex: 3 200px;
+
     display: flex;
+    flex: 3 200px;
     flex-flow: column;
     text-align: center;
     padding: 10px;
     color: orangered;
     background-color: cornsilk !important;
+    flex-grow: 2;
 }
 
 .article3 div {
@@ -34,6 +36,8 @@ article {
     flex-flow: column;
     padding-top: 10px;
     background-color: cadetblue;
+    flex: 200px;
+    flex-grow: 2;
 }
 
 .article1 div, .article2 div {
