@@ -2,7 +2,7 @@
     height: 100vh;
     display: flex;
     margin: 10px;
-    background-color: darkcyan;
+
 }
 article {
     flex: 1 200px;
@@ -27,7 +27,7 @@ article {
     background-color: cadetblue;
     margin: 10px;
     filter: opacity(0.8);
-    border: solid 2px cadetblue;
+    border: solid 2px blue;
 }
 .article3:hover {
     color: cadetblue;
@@ -46,4 +46,5 @@ article {
     display: flex;
     background-color: azure;
     margin: 10px;
+    border: solid 2px blue;
 }

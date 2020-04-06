@@ -14,14 +14,14 @@ class Offices extends Component {
 
             <section className={styles.offices}>
 
-                <article className={styles.article1}> Офис 1
+                <article className={styles.article1}>
                     <div></div>
                     <div></div>
                     <div></div>
                     <div></div>
                     <div></div>
                 </article>
-                <article className={styles.article2}> Офис 2
+                <article className={styles.article2}>
                     <div></div>
                     <div></div>
                     <div></div>
