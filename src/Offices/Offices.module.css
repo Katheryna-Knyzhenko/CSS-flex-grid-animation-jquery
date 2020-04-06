@@ -2,31 +2,38 @@
     height: 100vh;
     display: flex;
     margin: 10px;
+    background-color: darkcyan;
 }
 article {
     flex: 1 200px;
     display: flex;
-    background-color: lightcyan;
 }
 
-article:nth-of-type(3) {
+.article3 {
     flex: 3 200px;
     display: flex;
-    background-color: lightblue;
+    background-color: orange;
     flex-flow: column;
     text-align: center;
-    padding-top: 10px;
+    padding: 10px;
+    color: orangered;
 }
-article:nth-of-type(3) div {
+
+.article3 div {
     flex: 1 200px;
     display: flex;
-    background-color: whitesmoke;
+    background-color: cadetblue;
     margin: 10px;
+    filter: opacity(0.2);
+}
+.article3:hover {
+    color: cadetblue;
 }
 .article1, .article2 {
     display: flex;
     flex-flow: column;
     padding-top: 10px;
+    background-color: cadetblue;
 }
 
 .article1 div, .article2 div {

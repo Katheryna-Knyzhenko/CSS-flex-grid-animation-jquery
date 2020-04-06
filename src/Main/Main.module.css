@@ -64,7 +64,7 @@ article:nth-of-type(3) {
     opacity: 0.8;
     background-position: center;
 }
-.secondDivArticle3 {
+.secondDivArticle3:hover {
     filter: grayscale(100%);
 }
 .divWithButton:hover {

@@ -28,7 +28,9 @@ class Offices extends Component {
                     <div></div>
                     <div></div>
                 </article>
-            <article className={styles.article3}> Горячие предложения
+            <article className={styles.article3}>
+                <p> Горячие предложения
+                </p>
                 <div></div>
                 <div></div>
                 <div></div>
