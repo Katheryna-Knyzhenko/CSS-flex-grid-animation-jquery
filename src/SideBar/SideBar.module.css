@@ -8,7 +8,8 @@
     margin-bottom: 10px;
 }
 .sidebar:hover {
-    filter: hue-rotate(290deg);
+    filter: hue-rotate(290deg) ;
+
 }
 .sidebar2:hover {
     filter: hue-rotate(330deg);
