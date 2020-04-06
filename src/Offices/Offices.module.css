@@ -12,11 +12,11 @@ article {
 .article3 {
     flex: 3 200px;
     display: flex;
-    background-color: orange;
     flex-flow: column;
     text-align: center;
     padding: 10px;
     color: orangered;
+    background-color: cornsilk !important;
 }
 
 .article3 div {
