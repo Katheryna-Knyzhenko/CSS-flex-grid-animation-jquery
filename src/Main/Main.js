@@ -30,7 +30,7 @@ render() {
     </article>
     <article className={styles.article3}>
         <div className={styles.firstDivArticle3}>
-            <NavLink to = '/offices'><button className={styles.buttonB}>Аренда офисных помещений</button></NavLink>
+            <NavLink to = '/offices'><button className={styles.buttonB}>Аренда офисных <br></br>помещений</button></NavLink>
         </div>
         <div className={styles.secondDivArticle3}>
             <NavLink to = '/buildings'><button className={styles.buttonB}>Аренда домов</button></NavLink>

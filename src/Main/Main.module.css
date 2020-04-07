@@ -45,6 +45,8 @@ article:nth-of-type(3) {
     width: auto;
     background-color: white;
     color: cornflowerblue;
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+
 }
 .firstDivArticle3 {
     background-image: url("./fficePicture.jpg");
@@ -89,6 +91,7 @@ article:nth-of-type(3) {
     flex: 1 200px;
     background-color: lightcyan;
     margin: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 
 .buttonB:hover {
