@@ -15,6 +15,9 @@ class SideBar extends Component {
             <div className={styles.sidebar}>
                 <p> <span className={styles.aboutSite}>Информация о сайте</span>
                 </p>
+                <p>
+                <NavLink className={styles.link} to = "/">Интересные предложения</NavLink>
+                </p>
                 <form>
                 <textarea className={styles.textArea} type="text" placeholder="Что вы ищите?"></textarea>
                     <p>
@@ -25,7 +28,7 @@ class SideBar extends Component {
             <div className={styles.sidebar2}>
                 <p> <span className={styles.aboutSite}>Информация о сайте</span>
                 </p>
-                <NavLink to = "/">На главную</NavLink>
+                <NavLink className={styles.link} to = "/">На главную</NavLink>
             </div>
 </div>
 

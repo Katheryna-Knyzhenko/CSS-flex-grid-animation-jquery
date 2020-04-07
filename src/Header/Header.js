@@ -18,7 +18,7 @@ class Header extends Component {
         return (
 
             <div className={styles.header}  data-parallax = "scroll">
-                <p className={styles.aboutSite}>Аренда квартир/домов/оффисов
+                <p className={styles.aboutSite}>Аренда квартир/домов/офисов
                 </p>
             </div>
         )
