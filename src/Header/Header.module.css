@@ -5,12 +5,24 @@
     height: 150px;
     margin-bottom: 10px;
     background-position: 30% 70%;
-    opacity: 0.8;
+    color: aqua;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    filter:alpha(opacity=20);
+    opacity:0.7;
+    font: italic 1.5em Georgia, "Times New Roman", serif;
+
 }
 .header:hover {
     filter: sepia(100%);
 }
 .aboutSite:hover {
     color: blue;
+
+}
+
+.aboutSite, .aboutSite2 {
 
 }

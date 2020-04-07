@@ -1,5 +1,7 @@
 import React, {Component} from "react";
-import styles from './Header.module.css'
+import styles from './Header.module.css';
+import simpleParallax from "simple-parallax-js";
+import Parallax from "parallax-js";
 
 
 class Header extends Component {
@@ -9,11 +11,14 @@ class Header extends Component {
     }
 
     render() {
-
+        // var image = document.getElementsByClassName('header');
+        // new simpleParallax(image, {
+        //     orientation: 'right',
+        // scale: 1.5});
         return (
 
-            <div className={styles.header}>
-                <p> <span className={styles.aboutSite}>Аренда квартир/домов/оффисов</span>
+            <div className={styles.header}  data-parallax = "scroll">
+                <p className={styles.aboutSite}>Аренда квартир/домов/оффисов
                 </p>
             </div>
         )

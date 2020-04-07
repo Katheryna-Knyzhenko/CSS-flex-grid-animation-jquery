@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import styles from './Buildings.module.css'
-import {Parallax} from "parallax-js";
+
 
 class Buildings extends Component {
     constructor() {
@@ -9,14 +9,13 @@ class Buildings extends Component {
     }
 
     render() {
-        var scene = document.getElementById("scene");
-        // var parallaxInstance = new Parallax(scene);
+
 
         return (
 
             <div className={styles.buildingsVariants} id = "scene">
-                <div className={styles.building1} data-deep = "0.2" >1</div>
-                <div className={styles.building2}>2</div>
+                <div className={styles.building1} data-depth = "0.2" >1</div>
+                <div className={styles.building2} data-depth = "0.6">2</div>
                 <div className={styles.building3}>
                 <div className={styles.home1}>Домик 1</div>
                     <div className={styles.home2}>Домик 2</div>
