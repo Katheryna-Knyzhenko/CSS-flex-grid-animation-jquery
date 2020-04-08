@@ -16,15 +16,13 @@ class Offers extends Component {
                  <h1>Welcome!</h1>
             </div>
                 <div className={styles.wrapText}>
-                <div className = {styles.textContent}>
-                    <p>
-                        текст 1
-                        <br/><br/>
-                    текст 2
-                        <br/><br/>
-                        текст 3
-
-                    </p>
+                <div className = {styles.par_textContent}>
+                    <div className={styles.p}>
+                        <div className={styles.text1}> текст 1</div>
+                        <div className={styles.text2}> текст 2</div>
+                        <div className={styles.text3}> текст 1</div>
+                        <div className={styles.text4}> текст 2</div>
+                    </div>
 
             </div>
                 </div>

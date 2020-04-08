@@ -25,14 +25,21 @@ h1 {
     position: relative;
     display: block;
     background-color: azure;
-    z-index: 1;
+    z-index: 1;perspective: 100px;
+    overflow-y: hidden;
+    overflow-x: auto;
 }
 .textContent {
     max-width: 750px;
     margin: 0 auto;
     padding: 75px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+   right: 0;
+    bottom: 0;
 }
-p {
+.p {
     margin: 75px 0;
 }
 
@@ -53,4 +60,8 @@ p {
     max-width: 100%;
     background-size: cover;
 
+}
+.p>div {
+    background-color: gainsboro;
+    margin: 25px 0;
 }
