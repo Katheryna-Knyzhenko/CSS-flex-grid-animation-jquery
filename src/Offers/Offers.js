@@ -20,8 +20,8 @@ class Offers extends Component {
                     <div className={styles.p}>
                         <div className={styles.text1}> текст 1</div>
                         <div className={styles.text2}> текст 2</div>
-                        <div className={styles.text3}> текст 1</div>
-                        <div className={styles.text4}> текст 2</div>
+                        <div className={styles.text3}> текст 3</div>
+                        <div className={styles.text4}> текст 4</div>
                     </div>
 
             </div>
