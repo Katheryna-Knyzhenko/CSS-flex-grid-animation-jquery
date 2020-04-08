@@ -1,0 +1,57 @@
+section {
+    font-size: 18px;
+    line-height: 28px;
+
+}
+h1 {
+    letter-spacing: -5px;
+    text-align: center;
+    font-size: 150px;
+    line-height: 150px;
+    color: whitesmoke;
+
+}
+
+.wrapper {
+    perspective: 1px;
+    transform-style: preserve-3d;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    min-width: 100%;
+}
+
+.wrapText {
+    position: relative;
+    display: block;
+    background-color: azure;
+    z-index: 1;
+}
+.textContent {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 75px 0;
+}
+p {
+    margin: 75px 0;
+}
+
+.parallax {
+    display: flex;
+   flex: 1 0 auto;
+    position: relative;
+    z-index: -1;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    transform: translateZ(-1px) scale(2);
+    background-color: azure;
+    background: url("flat.jpg");
+    background-repeat: no-repeat;
+    min-width: 100%;
+    width: 100%;
+    max-width: 100%;
+    background-size: cover;
+
+
+}
