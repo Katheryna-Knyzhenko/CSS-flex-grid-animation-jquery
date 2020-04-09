@@ -65,7 +65,7 @@ h1 {
 
 }
 .p>div {
-    background-color: lightgray;
+    background-color: azure;
     margin: 25px 0;
     background-repeat: no-repeat;
     background-size: cover;
@@ -78,10 +78,12 @@ h1 {
     background-attachment: fixed;
 }
 .text2 {
-    background-image: url("flatlittle.jpg");
-    background-attachment: fixed;
+background-color: azure;
+    border: dotted 2px blueviolet;
+    padding: 10px;
 }
 .text3 {
-    background-image: url("kitchen.jpg");
+    background-image: url("flatlittle.jpg");
+    background-attachment: fixed;
 
 }
