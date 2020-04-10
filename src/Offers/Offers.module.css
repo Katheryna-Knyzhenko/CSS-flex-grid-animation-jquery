@@ -94,10 +94,14 @@ background-color: azure;
         opacity: 0;
     }50% {
          opacity: 0.5;
+    background-color: aquamarine;
+    color: #FF0000;
 
      }
 
     100% {
         opacity: 1;
+        background-color: aqua;
+        color: orange;
     }
 }
