@@ -11,7 +11,7 @@ class Animation extends Component {
 
         return (
             <div className={styles.wrapperAnimation}> Анимация
-                <div></div>
+                <div className={styles.animation}></div>
             </div>
         )
     }
