@@ -13,14 +13,17 @@
    background-repeat: no-repeat;
     background-size: cover;
     transition: left 2s ease-out 0.3s;
-    top: 40%;
+    top: 20%;
     left:30%;
     right: 30%;
     bottom: 0;
+    animation-direction: normal;
+
 }
 
 .animation:hover {
     left: 10px;
+
 
 }
 
