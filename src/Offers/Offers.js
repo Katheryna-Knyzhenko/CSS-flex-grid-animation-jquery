@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import styles from './Offers.module.css';
 import $ from "jquery";
-import imageFlat from "./flatlittle3.jpg";
+import {NavLink} from "react-router-dom";
 
 
 
@@ -37,14 +37,15 @@ class Offers extends Component {
                         <div className={styles.text1} data-stellar-background-ratio="0.5">
                             {/* eslint-disable-next-line jsx-a11y/alt-text */}
                         </div>
-                        <div className={styles.text2} data-stellar-background-ratio="0.9"> Квартиры</div>
+                        <div className={styles.text2} data-stellar-background-ratio="0.9"> Квартиры
+                        <br/><br/>
+                        <NavLink to='/cssAnimation'>Перейти на css анимацию</NavLink></div>
                         <div className={styles.text3} data-stellar-background-ratio="0.3"> </div>
                     </div>
 
             </div>
                 </div>
             </div>
-
             </section>
         );
 

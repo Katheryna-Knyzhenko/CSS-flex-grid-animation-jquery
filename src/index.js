@@ -10,6 +10,7 @@ import Footer from "./Footer/Footer";
 import FlatsList from "./FlatsList/FlatsList";
 import Main from "./Main/Main";
 import Offers from "./Offers/Offers";
+import Animation from "./Animation/Animation";
 
 
 
@@ -28,5 +29,6 @@ ReactDOM.render(
             <Route path ='/offices' component={Offices}/>
             <Route path= '/flatsList' component={FlatsList}/>
         <Route path= '/intrOffers' component={Offers}/>
+        <Route path= '/cssAnimation' component={Animation}/>
         <Footer/>
     </BrowserRouter>, document.getElementById("root"));
