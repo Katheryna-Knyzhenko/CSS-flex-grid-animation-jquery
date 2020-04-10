@@ -81,9 +81,23 @@ h1 {
 background-color: azure;
     border: dotted 2px blueviolet;
     padding: 10px;
+    animation: nev 5s infinite alternate;
 }
 .text3 {
     background-image: url("flatlittle.jpg");
     background-attachment: fixed;
 
+}
+
+@keyframes nev{
+    0% {
+        opacity: 0;
+    }50% {
+         opacity: 0.5;
+
+     }
+
+    100% {
+        opacity: 1;
+    }
 }

@@ -21,6 +21,7 @@
     right: 0;
     bottom: 0;
     overflow: hidden;
+    animation: nev 5s infinite alternate;
 
 }
 
@@ -29,6 +30,16 @@
    top: 10px;
     transform: rotate(180deg);
 
-
 }
+@keyframes nev {
+    0% {
+        opacity: 0;
+    }50% {
+         opacity: 0.5;
 
+     }
+
+    100% {
+        opacity: 1;
+    }
+}
