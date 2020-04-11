@@ -27,6 +27,8 @@
 
 .textArea {
    width: 80%;
+    background-color: gainsboro;
+    color: #FF0000;
 }
 
 .sidebar .button {
@@ -52,4 +54,8 @@
     color: royalblue;
     font-style: italic;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+.but:hover {
+    transform: scale(1.5);
+    color: #FF0000;
 }

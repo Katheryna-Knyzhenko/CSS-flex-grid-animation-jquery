@@ -14,7 +14,10 @@ constructor () {
     }
 }
 render() {
-
+    localStorage.setItem('myKey', 'myValue');
+    var localValue = localStorage.getItem('myKey');
+    console.log(localValue);
+    localStorage.removeItem('myKey');
     return (
 
 <section>

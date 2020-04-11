@@ -18,11 +18,12 @@ class SideBar extends Component {
                 <p>
                 <NavLink className={styles.link} to = "/intrOffers">Интересные предложения (Вам сюда!)</NavLink>
                 </p>
-                <form>
-                <textarea className={styles.textArea} type="text" placeholder="Что Вы ищите?"></textarea>
+                <form id="form" action="#" method="POST">
+                <textarea id="description" className={styles.textArea} type="text" placeholder="Что Вы ищите?"></textarea>
                     <p>
-                <button className={styles.but}>Отправить</button>
+                <button id="add" type="submit" className={styles.but}>Add</button>
                     </p>
+                    <button className={styles.but} id="clear">Clear All</button>
                 </form>
             </div>
             <div className={styles.sidebar2}>
