@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import styles from './SideBar.module.css'
 import {NavLink} from "react-router-dom";
+import $ from "jquery";
 
 class SideBar extends Component {
     constructor() {
@@ -13,20 +14,23 @@ class SideBar extends Component {
         alert( localStorage.getItem('test') );
         localStorage.setItem('test1', 'localStorage2');
         console.log(localStorage.getItem('test1'));
-        // var elementItem = document.getElementById('item');
-        // localStorage.setItem(document.getElementById('item'), 'event.target.value');
-        // var localValue = localStorage.getItem(document.getElementById('item'));
-        // console.log(localValue);
-        // localStorage.removeItem(document.getElementById('item'));
-        // document.querySelector("item").addEventListener('keyup',function(){
-        //
-        //
-        //     localStorage.setItem('text',document.querySelector("item").value);
-        // });
-        // document.querySelector('item').value = localStorage.getItem('text') ;
-        // window.addEventListener('storage', function(e) {
-        //     document.querySelector('body').innerHTML = localStorage.getItem(e.key);
-        // });
+
+        const obj = {
+            count: 3,
+            toString() {
+                return `<ul><li>TEXT</li></ul>`;
+            }
+        }
+        localStorage.clear();
+        localStorage.setItem('obj', obj);
+        for (let i = 0; i < obj.count; i++) {
+            let div1 = document.createElement('div');
+            div1.className = 'cla_ss';
+            div1.innerHTML = localStorage.getItem('obj');
+            var target = document.getElementById( "h" );
+            document.body.append(div1);
+
+        }
         return (
           <div>
             <div className={styles.sidebar}>
@@ -36,13 +40,13 @@ class SideBar extends Component {
                 <NavLink className={styles.link} to = "/intrOffers">Интересные предложения (Вам сюда!)</NavLink>
                 </p>
                 <form id="form">
-                <textarea id="item"  className={styles.textArea} type="text" placeholder="Что Вы ищите?"></textarea>
+                <textarea  id="item"  className={styles.textArea} type="text" placeholder="Что Вы ищите?"></textarea>
                     <p>
-                <button id="add" type="submit" className={styles.but}>Add</button>
+                <button id="add"  type="submit" className={styles.but}>Add</button>
                     </p>
-                    <button onClick="localStorage.removeItem('item'); item.value=''" className={styles.but} id="clear">Clear All</button>
+                    <button  className={styles.but} id="clear">Clear All</button>
                 </form>
-                <h2>Items</h2>
+                <h2 id= "h">Items</h2>
                  <ul id="todos"></ul>
             </div>
             <div className={styles.sidebar2}>
