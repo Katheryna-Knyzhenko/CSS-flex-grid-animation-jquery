@@ -8,16 +8,16 @@ import {NavLink} from "react-router-dom";
 
 class Main extends Component {
 constructor () {
-    super()
+    super();
     this.state = {
 
     }
 }
 render() {
     localStorage.setItem('myKey', 'myValue');
-    var localValue = localStorage.getItem('myKey');
+    let localValue = localStorage.getItem('myKey');
     console.log(localValue);
-    localStorage.removeItem('myKey');
+
     return (
 
 <section>
