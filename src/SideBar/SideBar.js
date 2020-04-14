@@ -10,27 +10,36 @@ class SideBar extends Component {
     }
 
     render() {
+
         localStorage.setItem('test', 'localStorage1');
         alert( localStorage.getItem('test') );
         localStorage.setItem('test1', 'localStorage2');
         console.log(localStorage.getItem('test1'));
-
-        const obj = {
-            count: 3,
-            toString() {
-                return `<ul><li>TEXT</li></ul>`;
-            }
-        }
-        localStorage.clear();
-        localStorage.setItem('obj', obj);
-        for (let i = 0; i < obj.count; i++) {
-            let div1 = document.createElement('div');
-            div1.className = 'cla_ss';
-            div1.innerHTML = localStorage.getItem('obj');
-            var target = document.getElementById( "h" );
-            document.body.append(div1);
-
-        }
+        $(document).ready(function() {
+ $('h2').text('Items');
+ $('h2 + ul').hide(3000);
+            $('h2 + ul').show(3000);
+        });
+        //
+        // const obj = {
+        //     count: 3,
+        //     toString() {
+        //         return `<ul><li>TEXT</li></ul>`;
+        //     }
+        // }
+        // localStorage.clear();
+        // localStorage.setItem('obj', obj);
+        //
+        // for (let i = 0; i < obj.count; i++) {
+        //     let div1 = document.createElement('div');
+        //     div1.className = 'cla_ss';
+        //     div1.innerHTML = localStorage.getItem('obj');
+        //     var target = document.getElementById( "form" );
+        //     document.body.append(div1);
+        //     $('#todos').eq(1).append(div1);
+        //
+        //
+        // }
         return (
           <div>
             <div className={styles.sidebar}>
@@ -46,8 +55,8 @@ class SideBar extends Component {
                     </p>
                     <button  className={styles.but} id="clear">Clear All</button>
                 </form>
-                <h2 id= "h">Items</h2>
-                 <ul id="todos"></ul>
+                <h2 id= "h"> </h2>
+                 <ul id= "todos">Something</ul>
             </div>
             <div className={styles.sidebar2}>
                 <p> <span className={styles.aboutSite}>Я второй сайдбар</span>
