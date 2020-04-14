@@ -71,3 +71,16 @@
 .link1 {
     text-decoration: none;
 }
+h2 {
+    text-align: center;
+}
+li > span {
+    color: green;
+
+    display: inline-block;
+    width: 1.5em;
+    font-size: 20px;
+}
+ul {
+    list-style: none;
+}
