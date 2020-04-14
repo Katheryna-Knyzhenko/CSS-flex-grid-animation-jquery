@@ -16,9 +16,8 @@ class SideBar extends Component {
         localStorage.setItem('test1', 'localStorage2');
         console.log(localStorage.getItem('test1'));
         $(document).ready(function() {
- $('h2').text('Items');
- $('h2 + ul').hide(3000);
-            $('h2 + ul').show(3000);
+
+ $('h2 + ul').hide(3000).text('Items list').show(3000);
         });
         //
         // const obj = {
@@ -55,7 +54,7 @@ class SideBar extends Component {
                     </p>
                     <button  className={styles.but} id="clear">Clear All</button>
                 </form>
-                <h2 id= "h"> </h2>
+                <h2 id= "h">Items</h2>
                  <ul id= "todos">Something</ul>
             </div>
             <div className={styles.sidebar2}>
