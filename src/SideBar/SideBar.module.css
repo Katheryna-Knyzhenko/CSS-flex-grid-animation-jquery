@@ -39,10 +39,19 @@
     color: gold;
 }
 .link {
-    text-decoration: none;
+    text-decoration: blink;
     font-style: italic;
     font-weight: bold;
+    animation-name: link;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
+@keyframes link{
+    from{color: gold;}
+    to{color: orangered;}
+}
+
+
 .link:hover {
     color: gold;
 }
@@ -51,11 +60,14 @@
 }
 .but {
     background-color: gainsboro;
-    color: royalblue;
+    color: olivedrab;
     font-style: italic;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 .but:hover {
     transform: scale(1.5);
     color: #FF0000;
+}
+.link1 {
+    text-decoration: none;
 }

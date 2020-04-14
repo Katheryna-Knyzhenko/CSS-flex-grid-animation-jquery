@@ -12,12 +12,13 @@ class SideBar extends Component {
     render() {
 
         localStorage.setItem('test', 'localStorage1');
-        alert( localStorage.getItem('test') );
+        console.log( localStorage.getItem('test') );
         localStorage.setItem('test1', 'localStorage2');
         console.log(localStorage.getItem('test1'));
         $(document).ready(function() {
 
  $('h2 + ul').hide(3000).text('Items list').show(3000);
+
         });
         //
         // const obj = {
@@ -60,7 +61,7 @@ class SideBar extends Component {
             <div className={styles.sidebar2}>
                 <p> <span className={styles.aboutSite}>Я второй сайдбар</span>
                 </p>
-                <NavLink className={styles.link} to = "/">На главную</NavLink>
+                <NavLink className={styles.link1} to = "/">На главную</NavLink>
 
             </div>
 </div>
