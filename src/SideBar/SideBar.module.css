@@ -57,6 +57,7 @@
 }
 .aboutSite {
     text-shadow: -1px -1px #666, 1px 1px #FFF ;
+
 }
 .but {
     background-color: gainsboro;
@@ -82,4 +83,5 @@ li > span {
 }
 ul {
     list-style: none;
+
 }

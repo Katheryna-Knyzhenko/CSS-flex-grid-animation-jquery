@@ -25,6 +25,17 @@
 
 }
 
-.aboutSite, .aboutSite2 {
-
+.aboutSite {
+    white-space:nowrap;
+    overflow:hidden;
+    -webkit-animation: type 8s steps(50, end);
+    animation: type 8s steps(50, end);
+    width: 40em;
+    animation-iteration-count:  infinite;
+}
+@keyframes type{
+    from { width: 0; }
+}
+@-webkit-keyframes type{
+    from { width: 0; }
 }
