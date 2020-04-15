@@ -32,6 +32,7 @@
     animation: type 8s steps(50, end);
     width: 40em;
     animation-iteration-count:  infinite;
+    -webkit-animation-iteration-count: infinite;
 }
 @keyframes type{
     from { width: 0; }

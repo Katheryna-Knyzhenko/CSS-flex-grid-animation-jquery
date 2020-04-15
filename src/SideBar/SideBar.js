@@ -15,9 +15,11 @@ class SideBar extends Component {
         console.log( localStorage.getItem('test') );
         localStorage.setItem('test1', 'localStorage2');
         console.log(localStorage.getItem('test1'));
+
         $(document).ready(function() {
 
  $('h2 + ul').hide(3000).show(3000);
+ $('#aboutSite, #aboutSite2').fadeOut(3000).fadeIn(3000);
 
         });
         //
@@ -43,8 +45,7 @@ class SideBar extends Component {
         return (
           <div>
             <div className={styles.sidebar}>
-                <p> <span className={styles.aboutSite}>Я первый сайдбар</span>
-                </p>
+                <p> <span className={styles.aboutSite} id='aboutSite'>Я первый сайдбар</span></p>
                 <p>
                 <NavLink className={styles.link} to = "/intrOffers">Интересные предложения (Вам сюда!)</NavLink>
                 </p>
@@ -60,7 +61,7 @@ class SideBar extends Component {
                      <li><span>&#9745;</span>List</li></ul>
             </div>
             <div className={styles.sidebar2}>
-                <p> <span className={styles.aboutSite}>Я второй сайдбар</span>
+                <p> <span className={styles.aboutSite} id = "aboutSite2">Я второй сайдбар</span>
                 </p>
                 <NavLink className={styles.link1} to = "/">На главную</NavLink>
 
