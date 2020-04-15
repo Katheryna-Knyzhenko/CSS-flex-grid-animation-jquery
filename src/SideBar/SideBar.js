@@ -19,7 +19,8 @@ class SideBar extends Component {
         $(document).ready(function() {
 
  $('h2 + ul').hide(3000).show(3000);
- $('#aboutSite, #aboutSite2').fadeOut(3000).fadeIn(3000);
+ $('#aboutSite, #aboutSite2').slideUp(3000).slideDown(3000);
+ $('#secondBar').fadeTo(4000, 0.8).fadeTo(2000, 1);
 
         });
         //
@@ -60,7 +61,7 @@ class SideBar extends Component {
                  <ul  id= "todos">
                      <li><span>&#9745;</span>List</li></ul>
             </div>
-            <div className={styles.sidebar2}>
+            <div id = 'secondBar' className={styles.sidebar2}>
                 <p> <span className={styles.aboutSite} id = "aboutSite2">Я второй сайдбар</span>
                 </p>
                 <NavLink className={styles.link1} to = "/">На главную</NavLink>
