@@ -21,6 +21,15 @@ class SideBar extends Component {
  $('h2 + ul').hide(3000).show(3000);
  $('#aboutSite, #aboutSite2').slideUp(3000).slideDown(3000);
  $('#secondBar').fadeTo(4000, 0.8).fadeTo(2000, 1);
+ $('textarea').attr('title', 'Укажите предмет поиска, так будет проще найти нужное');
+           $ ('li').mouseout(function(){
+alert('<li> mouseover');
+           })
+            $('button').each(function () {
+                if($(this).attr('type')== 'submit') {
+                    $(this).attr('title', 'Искать по сайту')
+                }
+            })
 
         });
         //
@@ -53,9 +62,9 @@ class SideBar extends Component {
                 <form id="form">
                 <textarea  id="item"  className={styles.textArea} type="text" placeholder="Что Вы ищите?"></textarea>
                     <p>
-                <button id="add"  type="submit" className={styles.but}>Add</button>
+                <button id="add"  type="submit" className={styles.but}>Search</button>
                     </p>
-                    <button  className={styles.but} id="clear">Clear All</button>
+                    <button  className={styles.but} id="clear">Clear all</button>
                 </form>
                 <h2 id= "h">Items</h2>
                  <ul  id= "todos">
