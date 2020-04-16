@@ -21,12 +21,12 @@ class SideBar extends Component {
  $('h2 + ul').hide(3000).show(3000);
  $('#aboutSite, #aboutSite2').slideUp(3000).slideDown(3000);
  $('#secondBar').fadeTo(4000, 0.8).fadeTo(2000, 1);
- $('textarea').attr('title', 'Укажите предмет поиска, так будет проще найти нужное');
+ $('textarea').attr('title', 'Укажите предмет поиска, так будет проще найти нужное').animate({backgroundColor: 'red', font: 'bold'}, {duration: '3000'});
            $ ('li').mouseout(function(){
 alert('<li> mouseover');
-           })
+           });
             $('button').each(function () {
-                if($(this).attr('type')== 'submit') {
+                if($(this).attr('type')=== 'submit') {
                     $(this).attr('title', 'Искать по сайту')
                 }
             })
