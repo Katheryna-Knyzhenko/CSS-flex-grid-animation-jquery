@@ -29,8 +29,8 @@ alert('<li> mouseover');
                 if($(this).attr('type')=== 'submit') {
                     $(this).attr('title', 'Искать по сайту')
                 }
-            })
-
+            });
+$('#wrapper div:first-child').append('<div>Добавили текст в $</div>');
         });
         //
         // const obj = {
@@ -53,7 +53,7 @@ alert('<li> mouseover');
         //
         // }
         return (
-          <div>
+          <div id = 'wrapper'>
             <div className={styles.sidebar}>
                 <p> <span className={styles.aboutSite} id='aboutSite'>Я первый сайдбар</span></p>
                 <p>
