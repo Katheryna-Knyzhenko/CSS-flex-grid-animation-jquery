@@ -31,6 +31,10 @@ alert('<li> mouseover');
                 }
             });
 $('#wrapper div:first-child').append('<div>Добавили текст в $</div>');
+            $('#aboutSite2').click(function() {
+                var clone = $(this).clone();
+                $(this).after(clone);
+            })
         });
         //
         // const obj = {
