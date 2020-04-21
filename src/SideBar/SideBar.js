@@ -56,7 +56,10 @@ let popupid = $('#' + $(this).attr('rel'));
 
                     // var clone = $('li').clone();
                     //  $('li').after(clone);
-                    $('li').text(text)
+                    $('li').text(text);
+                    // var liarr = $.makeArray();
+                    // liarr.map(g) = () {
+                    // $('li').text(text);
             });
             $('form').on('reset', function (event) {
                 event.preventDefault();
