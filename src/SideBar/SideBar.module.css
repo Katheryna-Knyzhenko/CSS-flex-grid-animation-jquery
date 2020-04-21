@@ -97,7 +97,7 @@ ul {
     padding: 20px;
 
 }
-p span:hover {
+.advert:hover {
     cursor: pointer;
     animation-name: link2;
     animation-iteration-count: infinite;

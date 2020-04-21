@@ -23,7 +23,8 @@ class SideBar extends Component {
  $('#secondBar').fadeTo(4000, 0.8).fadeTo(2000, 1);
  $('textarea').attr('title', 'Укажите предмет поиска, так будет проще найти нужное').animate({ 'font-size': '16px'}, 5000);
            $ ('li').mouseout(function(){
-alert('<li> mouseover');
+               var clone = $(this).clone();
+               $(this).after(clone);
            });
             $('button').each(function () {
                 if($(this).attr('type')=== 'submit') {
@@ -39,7 +40,7 @@ $('#wrapper div:first-child').append('<div>Добавили текст в $</div
 // eslint-disable-next-line no-unused-vars
 let popupid = $('#' + $(this).attr('rel'));
 $(popupid).show();
-            })
+            });
             $('#adsid').click(function () {
                 $('#adsid').hide();
             })
@@ -86,7 +87,7 @@ $(popupid).show();
                 <p> <span className={styles.aboutSite} id = "aboutSite2">Я второй сайдбар</span>
                 </p>
                 <NavLink className={styles.link1} to = "/">На главную</NavLink>
-                <p id="ads" rel='adsid'><span>Реклама, нажми сюда!</span></p>
+                <p id="ads" rel='adsid'><span className={styles.advert}>Реклама, нажми сюда!</span></p>
 
             </div>
               <div className={styles.adsid} id = 'adsid' >Реклама</div>
