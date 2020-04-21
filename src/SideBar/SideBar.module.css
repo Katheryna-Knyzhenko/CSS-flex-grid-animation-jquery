@@ -85,3 +85,33 @@ ul {
     list-style: none;
 
 }
+.adsid {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    margin: 0 25% 0 25%;
+    width: 50%;
+    background-color: rgba(0,255,255, 0.7);
+    height: 20em;
+    text-align: center;
+    padding: 20px;
+
+}
+p span:hover {
+    cursor: pointer;
+    animation-name: link2;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    position: absolute;
+}
+@keyframes link2 {
+    from {
+        transform: scale(1) rotate(10deg);
+        color: #FF0000;
+    }
+    to {
+        transform: scale(2) rotate(30deg);
+        color: orange;
+
+    }
+}

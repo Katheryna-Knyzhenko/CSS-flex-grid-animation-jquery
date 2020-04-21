@@ -34,6 +34,14 @@ $('#wrapper div:first-child').append('<div>Добавили текст в $</div
             $('#aboutSite2').click(function() {
                 var clone = $(this).clone();
                 $(this).after(clone);
+            });
+            $('#ads').click(function () {
+// eslint-disable-next-line no-unused-vars
+let popupid = $('#' + $(this).attr('rel'));
+$(popupid).show();
+            })
+            $('#adsid').click(function () {
+                $('#adsid').hide();
             })
         });
         //
@@ -78,8 +86,10 @@ $('#wrapper div:first-child').append('<div>Добавили текст в $</div
                 <p> <span className={styles.aboutSite} id = "aboutSite2">Я второй сайдбар</span>
                 </p>
                 <NavLink className={styles.link1} to = "/">На главную</NavLink>
+                <p id="ads" rel='adsid'><span>Реклама, нажми сюда!</span></p>
 
             </div>
+              <div className={styles.adsid} id = 'adsid' >Реклама</div>
 </div>
 
 
