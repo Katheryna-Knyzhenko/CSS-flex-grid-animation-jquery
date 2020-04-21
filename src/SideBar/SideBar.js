@@ -53,15 +53,15 @@ let popupid = $('#' + $(this).attr('rel'));
             $('form').on('submit', function (event) {
                 event.preventDefault();
                 var text = $('textarea').val();
-                    $('li').text(text);
+
                     // var clone = $('li').clone();
                     //  $('li').after(clone);
-
+                    $('li').text(text)
             });
             $('form').on('reset', function (event) {
                 event.preventDefault();
-                var text = $('textarea').val();
-                $('li').text('List')
+                    $('li').text('List')
+
             })
         });
         //
