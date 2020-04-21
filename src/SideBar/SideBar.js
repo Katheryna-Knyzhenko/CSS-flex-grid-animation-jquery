@@ -22,10 +22,10 @@ class SideBar extends Component {
  $('#aboutSite, #aboutSite2').slideUp(3000).slideDown(3000);
  $('#secondBar').fadeTo(4000, 0.8).fadeTo(2000, 1);
  $('textarea').attr('title', 'Укажите предмет поиска, так будет проще найти нужное').animate({ 'font-size': '16px'}, 5000);
-           $ ('li').mouseout(function(){
-               var clone = $(this).clone();
-               $(this).after(clone);
-           });
+           // $ ('li').mouseout(function(){
+           //     var clone = $(this).clone();
+           //     $(this).after(clone);
+           // });
             $('button').each(function () {
                 if($(this).attr('type')=== 'submit') {
                     $(this).attr('title', 'Искать по сайту')
@@ -50,6 +50,19 @@ let popupid = $('#' + $(this).attr('rel'));
             setTimeout(function () {
                 $(popupid).show();
             }, 4000);
+            $('form').on('submit', function (event) {
+                event.preventDefault();
+                var text = $('textarea').val();
+                    $('li').text(text);
+                    // var clone = $('li').clone();
+                    //  $('li').after(clone);
+
+            });
+            $('form').on('reset', function (event) {
+                event.preventDefault();
+                var text = $('textarea').val();
+                $('li').text('List')
+            })
         });
         //
         // const obj = {
@@ -83,11 +96,13 @@ let popupid = $('#' + $(this).attr('rel'));
                     <p>
                 <button id="add"  type="submit" className={styles.but}>Search</button>
                     </p>
-                    <button  className={styles.but} id="clear">Clear all</button>
+                    <button  type = 'reset' className={styles.but} id="clear">Clear all</button>
                 </form>
                 <h2 id= "h">Items</h2>
                  <ul  id= "todos">
-                     <li><span>&#9745;</span>List</li></ul>
+                     <li><span>&#9745;</span>List</li>
+                <li><span>&#9745;</span>List</li></ul>
+
             </div>
             <div id = 'secondBar' className={styles.sidebar2}>
                 <p> <span className={styles.aboutSite} id = "aboutSite2">Я второй сайдбар</span>
