@@ -60,7 +60,8 @@ let popupid = $('#' + $(this).attr('rel'));
             });
             $('form').on('reset', function (event) {
                 event.preventDefault();
-                    $('li').text('List')
+                    $('li').text('List');
+                    $('textarea').val('');
 
             })
         });
