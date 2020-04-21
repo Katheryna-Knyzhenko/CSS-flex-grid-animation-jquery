@@ -39,11 +39,17 @@ $('#wrapper div:first-child').append('<div>Добавили текст в $</div
             $('#ads').click(function () {
 // eslint-disable-next-line no-unused-vars
 let popupid = $('#' + $(this).attr('rel'));
-$(popupid).show();
+ $(popupid).show();
+
             });
             $('#adsid').click(function () {
                 $('#adsid').hide();
-            })
+            });
+            let popupid = $('#' + $('#ads').attr('rel'));
+
+            setTimeout(function () {
+                $(popupid).show();
+            }, 4000);
         });
         //
         // const obj = {
