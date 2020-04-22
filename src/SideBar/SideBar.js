@@ -53,10 +53,20 @@ let popupid = $('#' + $(this).attr('rel'));
             $('form').on('submit', function (event) {
                 event.preventDefault();
                 var text = $('textarea').val();
+                var liArr = $('li').text(text);
+                $.makeArray(liArr);
+                $.map(liArr, function (text) {
+                    var text = $('textarea').val();
+
+                });
+             $('#item').click(function () {
+                 $('#item').val('');
+             })
+                // $('li').text(text);
 
                     // var clone = $('li').clone();
                     //  $('li').after(clone);
-                    $('li').text(text);
+
                     // var liarr = $.makeArray();
                     // liarr.map(g) = () {
                     // $('li').text(text);
