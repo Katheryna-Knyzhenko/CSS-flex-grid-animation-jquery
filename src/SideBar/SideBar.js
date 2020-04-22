@@ -58,6 +58,7 @@ let popupid = $('#' + $(this).attr('rel'));
                 $.map(liArr, function (text) {
                     var text = $('textarea').val();
 
+
                 });
              $('#item').click(function () {
                  $('#item').val('');
@@ -114,9 +115,7 @@ let popupid = $('#' + $(this).attr('rel'));
                 </form>
                 <h2 id= "h">Items</h2>
                  <ul  id= "todos">
-                     <li><span>&#9745;</span>List</li>
-                <li><span>&#9745;</span>List</li></ul>
-
+                     <li><span>&#9745;</span>List</li></ul>
             </div>
             <div id = 'secondBar' className={styles.sidebar2}>
                 <p> <span className={styles.aboutSite} id = "aboutSite2">Я второй сайдбар</span>
