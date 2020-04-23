@@ -54,6 +54,7 @@ let popupid = $('#' + $(this).attr('rel'));
                 event.preventDefault();
                 var text = $('textarea').val();
                 var liArr = $('li').text(text);
+                $('li').prepend('<span>&#9745;</span>');
                 $.makeArray(liArr);
                 $.map(liArr, function (text) {
                     var text = $('textarea').val();
