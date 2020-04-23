@@ -1,7 +1,6 @@
 section {
     display: flex;
     height: 100vh;
-
 }
 
 article {
@@ -25,6 +24,7 @@ article:nth-of-type(3) {
     align-items: center;
     justify-content: space-around;
     flex-flow: column wrap;
+    margin: 10px;
 }
 
 
@@ -54,8 +54,9 @@ article:nth-of-type(3) {
     background-repeat: no-repeat;
     opacity: 0.8;
     background-position: center;
-
+    margin: 10px;
 }
+
 .firstDivArticle3:hover {
     filter: grayscale(100%);
 }
