@@ -1,6 +1,8 @@
 .wrap {
-     margin: 0 10px;
+     margin: 0 auto;
      padding: 0 10px;
+    max-width: 1500px;
+    min-height: 100%;
  }
 
 @media (max-width: 1200px) {

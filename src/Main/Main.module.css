@@ -1,6 +1,7 @@
 section {
     display: flex;
     height: 100vh;
+    width: auto;
 }
 
 article {
