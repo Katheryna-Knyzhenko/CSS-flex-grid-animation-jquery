@@ -11,7 +11,7 @@ import FlatsList from "./FlatsList/FlatsList";
 import Main from "./Main/Main";
 import Offers from "./Offers/Offers";
 import Animation from "./Animation/Animation";
-
+import styles from './index.module.css';
 
 
 
@@ -21,6 +21,7 @@ import Animation from "./Animation/Animation";
 // var browserHistory = ReactRouter.browserHistory;
 ReactDOM.render(
     <BrowserRouter>
+        <div className = {styles.wrap}>
         <Header/>
         <SideBar/>
         <Route exact path ='/' component={Main}/>
@@ -31,4 +32,5 @@ ReactDOM.render(
         <Route path= '/intrOffers' component={Offers}/>
         <Route path= '/cssAnimation' component={Animation}/>
         <Footer/>
+        </div>
     </BrowserRouter>, document.getElementById("root"));
