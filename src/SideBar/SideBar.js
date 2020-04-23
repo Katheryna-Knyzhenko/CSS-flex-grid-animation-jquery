@@ -77,7 +77,7 @@ let popupid = $('#' + $(this).attr('rel'));
                 event.preventDefault();
                     $('li').text('List');
                     $('textarea').val('');
-
+                $('li').prepend('<span>&#9745;</span>');
             })
         });
         //
