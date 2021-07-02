@@ -45,6 +45,6 @@
     ]
   },
   "devDependencies": {
-    "stellar-sdk": "^4.1.0"
+    "stellar-sdk": "^8.2.3"
   }
 }
